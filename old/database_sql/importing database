@@ -1,0 +1,6 @@
+Create a database in your xampp (or any other server that you are using)
+name it 'pondok_daun'
+
+if you wish to name it something else,
+make changes in the files/config.php
+and rename the $dbname = 'whatever name you decide'
