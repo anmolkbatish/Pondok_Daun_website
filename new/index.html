@@ -33,8 +33,8 @@
     <script>
         function initMap() {
             var positionOfRestraunt = {
-                lat: -34.922477461719474,
-                lng: 138.49454378610247
+                lat: latitude goes here,
+                lng: longitude goes here
             }
             var options = {
                 zoom: 18,
@@ -51,7 +51,7 @@
             marker.setMap(map);
 
             var infoWindow = new google.maps.InfoWindow({
-                content: '<h5> Secrets by the Sea </h5>'
+                content: '<h5> Name of restraunt </h5>'
             });
 
             marker.addListener('click', function() {
@@ -59,8 +59,10 @@
             });
         }
     </script>
+    
+    <!-- Add google maps API Key here for testing purpose -->
+    <!-- Do not upload it with the API Key. May violate privacy -->
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7CbHR9NNcbCk0IpyuvHe3S0qWhmrmxHE&callback=initMap" async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
